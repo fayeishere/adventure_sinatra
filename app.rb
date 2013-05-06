@@ -4,7 +4,14 @@ require 'json'
 
 # get the index page
 get "/" do
-  erb :index
+  # send_file File.join('views', 'index.html')
+  erb :index, :layout => :layout
+end
+
+# get a choice page
+get "/one" do
+    # send_file File.join('views', 'one.html')
+  erb :one, :layout => :layout
 end
 
 # create a new something
