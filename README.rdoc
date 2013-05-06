@@ -1,0 +1,2 @@
+Prototype for a choose your own adventure game.
+Built in Ruby using Sinatra & Foundations.
